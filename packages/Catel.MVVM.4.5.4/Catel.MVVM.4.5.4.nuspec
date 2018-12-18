@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Catel.MVVM</id>
+    <version>4.5.4</version>
+    <title>Catel.MVVM</title>
+    <authors>GeertvanHorrik</authors>
+    <owners>GeertvanHorrik</owners>
+    <licenseUrl>http://www.catelproject.com/license/</licenseUrl>
+    <projectUrl>http://www.catelproject.com/</projectUrl>
+    <iconUrl>http://www.catenalogic.com/catel.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Catel.MVVM library which contains the MVVM framework available in Catel. This MVVM framework solves actual real-life development problems when using MVVM for professional applications written in any XAML language such as WPF, Silverlight, Windows Phone and WinRT.</description>
+    <language>en-US</language>
+    <tags>mvvm data object wpf windows winrt phone wp8 wp sl silverlight view model viewmodel</tags>
+    <dependencies>
+      <group>
+        <dependency id="Catel.Core" version="4.5.4" />
+      </group>
+      <group targetFramework="Unsupported0.0">
+        <dependency id="Microsoft.Xaml.Behaviors.Uwp.Managed" version="1.0.3" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

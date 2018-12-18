@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Catel.Core</id>
+    <version>4.5.4</version>
+    <title>Catel.Core</title>
+    <authors>GeertvanHorrik</authors>
+    <owners>GeertvanHorrik</owners>
+    <licenseUrl>http://www.catelproject.com/license/</licenseUrl>
+    <projectUrl>http://www.catelproject.com/</projectUrl>
+    <iconUrl>http://www.catenalogic.com/catel.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Catel.Core library which provides the core building blocks required when developing professional applications. This package contains IoC components, logging, argument checking, message mediators and much more!</description>
+    <language>en-US</language>
+    <tags>mvvm model modelbase logging data object wpf silverlight sl windows phone wp wp8 winrt c# ioc servicelocator typefactory messaging messenger message mediator</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Microsoft.Bcl" version="1.1.10" />
+        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+        <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
+      </group>
+      <group targetFramework=".NETFramework4.5" />
+      <group targetFramework="Silverlight5.0">
+        <dependency id="Microsoft.Bcl" version="1.1.10" />
+        <dependency id="Microsoft.Bcl.Async" version="1.0.168" />
+        <dependency id="Microsoft.Bcl.Build" version="1.0.21" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

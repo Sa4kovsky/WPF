@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Catel.Extensions.Controls</id>
+    <version>4.5.4</version>
+    <title>Catel.Extensions.Controls</title>
+    <authors>GeertvanHorrik</authors>
+    <owners>GeertvanHorrik</owners>
+    <licenseUrl>http://www.catelproject.com/license/</licenseUrl>
+    <projectUrl>http://www.catelproject.com/</projectUrl>
+    <iconUrl>http://www.catenalogic.com/catel.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Catel.Extensions.Controls library which contains user controls, such as the StackGrid.</description>
+    <summary />
+    <language>en-US</language>
+    <tags>windows controls stackgrid styles stylehelper</tags>
+    <dependencies>
+      <dependency id="Catel.MVVM" version="4.5.4" />
+    </dependencies>
+  </metadata>
+</package>
